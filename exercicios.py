@@ -3,28 +3,26 @@ print("Hello World!!")
 
 
 # 1.2 Extremamente básico
-A = 10
-B = 9
+A = input("Digite o primeiro valor: ")
+B = input("Digite o segundo valor: ")
 
-x = A + B
+x = int(A) + int(B)
 print ("X =", x)
 
 
 # 1.3 Area do circulo
 pi = 3.14159
-raio = input("Digite o raio do circulo: ")
+raio = float(input("Digite o raio do circulo: "))
 
-area = pi * (raio * 2)
-
+area = pi * (raio * 2.00)
 print("A =", area)
 
 
 # 1.4 Soma simples
-A = input("Digite o primeiro valor:")
+A = input("Digite o primeiro valor: ")
 B = input("Digite o segundo valor: ")  
 
-soma = A + B
-
+soma = int(A) + int(B)
 print("Soma =", soma)
 
 
@@ -32,6 +30,5 @@ print("Soma =", soma)
 A = input("Digite o primeiro valor: ")
 B = input("Digite o segundo valor: ")
 
-produto = A * B
-
+produto = int(A) * int(B)
 print("Produto =", produto)
